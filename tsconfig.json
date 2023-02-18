@@ -4,7 +4,7 @@
     "target": "es6",
     "lib": ["dom", "es6", "dom.iterable", "esnext", "scripthost"],
     "allowJs": true,
-    "outDir": "./dist",
+    "outDir": "./build",
     "rootDir": "./src",
     "removeComments": true,
     "skipLibCheck": true,
@@ -25,5 +25,5 @@
     "jsx": "react-jsx"
   },
   "include": ["src"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "build"]
 }
